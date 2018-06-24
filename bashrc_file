@@ -3,3 +3,6 @@ PS1="[\e[0;32m\u@\h\e[m \W]\$ "
 
 # color for normal user [GREEN]
 PS1="[\e[0;31m\u@\h\e[m \W]\$ "
+
+Reference:
+https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
