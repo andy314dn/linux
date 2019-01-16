@@ -1,12 +1,15 @@
 # color for root [RED]
 PS1="[\e[0;32m\u@\h\e[m \W]\$ "
-#or
+#or (normally used)
 PS1='\[\e[1;31m\][\u@\h \[\033[01;34m\]\W]\$\[\e[0m\] '
 
 # color for normal user [GREEN]
 PS1="[\e[0;31m\u@\h\e[m \W]\$ "
-#or
+#or (normally used)
 PS1='\[\e[1;32m\][\u@\h \[\033[01;34m\]\W]\$\[\e[0m\] '
+
+# yellow
+echo "PS1=\"[\e[0;33m\u@\h\e[m \W]\$ \" ### yellow" >> ~/.bashrc
 
 Reference:
 https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
