@@ -1,0 +1,9 @@
+# print file name with access time, sort it
+$ find . -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort
+
+# files which change within 15 mins
+$ find . -cmin -15
+# files which change more than 15 mins
+$ find . -cmin +15
+# files which change in exactly 15 mins
+$ find . -cmin 15
